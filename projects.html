@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Projects – Samat Zholdassov</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <div class="site-title">Samat Zholdassov</div>
+      <div class="site-subtitle">AI for Health · Data Engineering · Multimodal Machine Learning</div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="projects.html">Projects</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Selected Projects</h1>
+
+      <section class="card">
+        <h2>Multimodal Health Risk Detection (In Progress)</h2>
+        <p>
+          Repository: <a href="https://github.com/Samdevelop25/stanford-health-ai" target="_blank">
+          stanford-health-ai</a>
+        </p>
+        <ul>
+          <li>Designing data pipelines for speech, text, wearable, and behavioral data.</li>
+          <li>Experimenting with fusion models for early risk prediction.</li>
+          <li>Planning a prototype personal health assistant interface.</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>Google Data Center Analytics (Past Work)</h2>
+        <ul>
+          <li>Built ETL pipelines and dashboards for network device and infrastructure data.</li>
+          <li>Used GCP, BigQuery, and internal tools to automate reporting and insights.</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>Payments & Compliance Analytics – Ipsy</h2>
+        <ul>
+          <li>Developed dashboards and risk metrics for payment flows.</li>
+          <li>Applied SQL, Tableau, and behavioral analytics for operational decisions.</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> Samat Zholdassov · Email: <a href="mailto:samzhold25@gmail.com">samzhold25@gmail.com</a></p>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
