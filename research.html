@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Research – Samat Zholdassov</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <div class="site-title">Samat Zholdassov</div>
+      <div class="site-subtitle">AI for Health · Data Engineering · Multimodal Machine Learning</div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="projects.html">Projects</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Research Focus</h1>
+
+      <section>
+        <h2>AI-Powered Multimodal Personal Health Assistant</h2>
+        <div class="card">
+          <p>
+            My primary research interest is building an AI-powered multimodal personal health assistant
+            that continuously monitors subtle changes in speech, language, wearable signals, and daily behavior
+            to detect early health risks.
+          </p>
+          <p>
+            The goal is to identify early indicators of depression, anxiety, chronic stress, sleep disruption,
+            and cardiometabolic risk before they fully manifest clinically.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Key Modalities</h2>
+        <ul>
+          <li><strong>Speech:</strong> prosody, tempo, pauses, vocal stress markers</li>
+          <li><strong>Text:</strong> sentiment, semantics, cognitive patterns in journaling or chat</li>
+          <li><strong>Behavior:</strong> typing cadence, routine stability, digital interaction patterns</li>
+          <li><strong>Wearables:</strong> heart rate, HRV, sleep quality, activity levels</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Methodology</h2>
+        <ul>
+          <li>Multimodal ETL and feature engineering pipelines</li>
+          <li>Self-supervised and supervised models for each modality</li>
+          <li>Fusion architectures combining time-series, text, and audio representations</li>
+          <li>Prototype tools for real-time risk scoring and visualization</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Proposal</h2>
+        <p>
+          I am actively developing this project as a potential collaboration with
+          <strong>Professor Nigam Shah</strong> at Stanford, within the Biomedical Informatics
+          and learning health systems context.
+        </p>
+        <a class="button-link" href="proposal/Samat_Research_Proposal.pdf" target="_blank">
+          Download Full Research Proposal (PDF)
+        </a>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> Samat Zholdassov · Email: <a href="mailto:samzhold25@gmail.com">samzhold25@gmail.com</a></p>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
